@@ -22,7 +22,7 @@ def load_vector_db():
 
 
 def retrieve_context(vector_store, query):
-    results = vector_store.similarity_search(query, k=40)
+    results = vector_store.similarity_search(query, k=30)
     # print("\n===== RETRIEVED DOCUMENTS =====\n")
 
     # for i, doc in enumerate(results):
